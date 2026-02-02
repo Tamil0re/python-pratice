@@ -51,7 +51,7 @@ print(f"Hello, {name}. Nice to meet you! \n"
 t.sleep(0.5)
 if gpa >= 3.0:
     print(f"Great job getting a {gpa} gpa")
-elif gpa < 3.0:
+else:
     print("Great job. You have great potential for something better!")
 
 #DATA TYPE CONVERSION
