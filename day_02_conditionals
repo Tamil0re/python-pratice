@@ -1,0 +1,51 @@
+#CONDITIONAL STATEMENTS
+# if, elif, else...
+
+"""
+Docstring for day_02_conditionals
+Conditional statements are decision structures that dictate that statements
+are only to be executed after certain conditions are met. They test for boolean conditions
+known as boolean expressions.
+
+E.g: if x < 5:
+        print (yes)
+
+    Here, the boolean expression is x < 5. If checks to see if it is true or false.
+
+elif creates alternative pathways for the program to go through when one condition is false/not met.
+
+"""
+import time as t
+print("Welcome to Swirl Cookie Shop!!")
+
+t.sleep(0.5)
+print("We're happy to have you :)")
+
+t.sleep(0.3)
+print("Select a cookie to purchase from the cookie menu")
+
+print(f"{'~'*10} COOKIE MENU {'~'*10}")
+print("1. Vanilla Swirl\n",
+      "2. Snickerdoodle\n",
+      "3. Choco delight\n",
+      "4. Cream sugar pie\n")
+
+t.sleep(1)
+try:
+    choice = int(input("Enter a cookie selection from 1-4: "))
+    if choice == 1:
+        print("Your Vanilla Swirl cookie is on the way!")
+    elif choice == 2:
+        print("Your Snickerdoodle cookie is on the way!")
+    elif choice == 3:
+        print("Your Choco delight cookie is on the way!")
+    elif choice == 4:
+        print("Your Cream sugar pie cookie is on the way!")
+    else:
+        print("Restart the program and choose a number from 1-4")   
+        
+except ValueError:
+        print("Restart the program and enter a valid integer.")
+        
+t.sleep(0.2)
+
