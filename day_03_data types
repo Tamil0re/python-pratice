@@ -1,7 +1,7 @@
 #this file contains more data types like list, strings, dictionaries, tuples, and sets
 
 print(type("Mohammed")) #string
-print(type({"banana", "mango", "apple"})) #set {}
+print(type({"banana", "mango", "apple"})) #set() or ()
 print(type({1:"banana", 2:"mango" , 3: "apple"})) #dictionary {x:y,...}
 print(type(["banana", "mango", "apple"])) #list []
 print(type(("banana", "mango", "apple"))) #tuple ()
