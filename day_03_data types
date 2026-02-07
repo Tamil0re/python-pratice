@@ -1,0 +1,8 @@
+#this file contains more data types like list, strings, dictionaries, tuples, and sets
+
+print(type("Mohammed")) #string
+print(type({"banana", "mango", "apple"})) #set {}
+print(type({1:"banana", 2:"mango" , 3: "apple"})) #dictionary {x:y,...}
+print(type(["banana", "mango", "apple"])) #list []
+print(type(("banana", "mango", "apple"))) #tuple ()
+print(type(set(("banana", "mango", "apple")))) #set using set constructor and parenthesis
