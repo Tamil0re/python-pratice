@@ -21,14 +21,15 @@ print("Hello","World") #Displays: Hello World
 
 """
 * print() is used to display information to the console.
-* print(), by default, has an end line character /n. This causes the cursor to go to a new line after the output is displayed.
-* end= can be used to explicitly control what the end character is
+* print(), by default, has an end line character \n (it is an escape sequence ). This causes the cursor to go to a new line after the output is displayed.
+* end= is an optional paramter that can be used to explicitly control what the end character is. It determines the character(s) appended to the end of the output. 
+* By default, end is set to \n
 """
 
 #print(f"Hello World {end='!'}")
 """
-The code above will cause an error because end= is a function parameter
-putting it inside the string makes Python see it as a part of the string
+The code above will cause an error because end= is a function parameter and is seperate argument from the string (should be seperated by a comma)
+Putting it inside the string makes Python see it as a part of the string
 It will look for a variable name end= and eventually cause a syntax error since it doesn't exist
 
 print("Hello World", end="!")
