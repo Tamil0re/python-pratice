@@ -37,6 +37,10 @@ print(tuple(name)) #('T', 'a', 'm', 'i', ' ', 'S', 'a', 'n', 'n', 'i')
 
 name= "Tami Sanni"
 print(list(name)) ['T', 'a', 'm', 'i', ' ', 'S', 'a', 'n', 'n', 'i']
+
+x = 25
+print(isinstance(x, (float, int)))
 """
 
 #Argument: Item passed into a function
+
